@@ -18,9 +18,15 @@ public class UserDao
 	private HibernateTemplate hibernateTemplate;
 	
 	@Transactional
-	public String save(Employee employee) 
+	public boolean save(Employee employee) 
 	{
-		return (String) this.hibernateTemplate.save(employee);
+		try {
+			this.hibernateTemplate.save(employee);
+			return true;
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return false;
 	}
 
 	public List<Employee> getAllEmployees()

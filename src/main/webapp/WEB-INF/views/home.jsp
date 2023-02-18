@@ -55,7 +55,7 @@ border-bottom: 2px solid bottem;
 			<div class="card col-lg-2 offset-5 mt-5 homelinks" style="width: 18rem;">
 				<ul class="list-group list-group-flush links no-bullets text-center">
 					<li class="list1" ><a class="text-decoration-none" href="signup"> Register Employee</a></li>
-					<li ><a class="text-decoration-none" href="signin">Log In EMployee </a></li>
+					<li ><a class="text-decoration-none" href="signin">Log In Employee </a></li>
 				</ul>
 			</div>
 		</div>

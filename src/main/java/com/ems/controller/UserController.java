@@ -40,8 +40,8 @@ public class UserController
 	{
 
 		try {
-				String emp = this.userDao.save(new Employee(name, dob, address, city, state, gender, userId, password));
-				if(emp != null) 
+				boolean status = this.userDao.save(new Employee( userId,password, name,gender, address,city,state, dob));
+				if(status) 
 				{
 					model.addAttribute("msg", "Registration Succesfull, Log in here!");
 					return "signin";

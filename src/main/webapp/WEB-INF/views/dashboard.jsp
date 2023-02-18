@@ -36,7 +36,7 @@ color: #ffc93c;
 	<div class="container-fluid">
 		<div class="row nav text-center  ">
 			<h3 class="text-white col-lg-4 mt-2">
-				<a class="text-white" href="/EmployeeManagementSystem/"> Employee Management System
+				<a class="text-white text-decoration-none" href="/EmployeeManagementSystem/"> Employee Management System
 				</a>
 			</h3>
 		</div>

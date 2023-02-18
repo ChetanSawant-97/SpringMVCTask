@@ -24,6 +24,9 @@ body {
 }
 a{
 text-decoration: none;}
+.success-text{
+	color: #0b8457;
+}
 </style>
 
 <title>Signin page</title>
@@ -37,7 +40,7 @@ text-decoration: none;}
 			</h3>
 		</div>
 		<c:if test="${msg!=null}">
-			<h3 class="text-white text-center">
+			<h3 class="success-text text-center">
 				<c:out value="${msg}"></c:out>
 			</h3>
 		</c:if>
